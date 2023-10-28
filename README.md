@@ -1,3 +1,3 @@
 
 #DBT models
-#data from #bigquery-public-data.thelook_ecommerce
+#data from # bigquery-public-data.thelook_ecommerce
