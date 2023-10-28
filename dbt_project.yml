@@ -2,11 +2,11 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'data_testing_dbt'
+name: 'dbt_data_poc'
 version: '1.0.0'
 config-version: 2
 
-profile: 'data_testing_dbt'
+profile: 'dbt_data_poc'
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
@@ -23,7 +23,7 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  data_testing_dbt:
+  dbt_data_poc:
     staging:
       +materialized: view
     marts:
